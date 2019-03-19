@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+div {
+  font-size: 35px;
+}
+
+#one-timeExpenses {
+  float: left;
+  border: 10px solid red;
+}
+
+#Budget {
+
+  float: left;
+  border: 10px solid green;
+}
+
+#submit {
+  float: buttom;
+  
+}
