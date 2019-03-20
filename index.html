@@ -8,39 +8,175 @@
 
   <link href="style.css" rel="stylesheet" type="text/css" />
 
-  <script  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+  <body>
+    <div align="center">
+      <h1>Business Calculator</h1>
 
 
-  <h1>This worksheet is set up for a startup business. <br>
-    Use it to get started calculating the startup costs for your own business. <br>
-    Change expense categories or add new ones to fit your business. <br>
-    Enter one-time and monthly expenses in the appropriate columns. <br>
-    Your estimations should go into the Budget column, and the exact amount spent should go into the Actual column.
-<br>Total funds required is the total estimated amount you need to start your company.</h1>
+  <head>This worksheet is set up for a startup business.
+      Use it to get started calculating the startup costs for your own business.
+      Change expense categories or add new ones to fit your business.
+      Enter one-time and monthly expenses in the appropriate columns.
+      Your estimations should go into the Budget column, and the exact amount spent should go into the Actual column.
+      Total funds required is the total estimated amount you need to start your company.</head>
+    </div><br>
+    <br>
+    <br>
+    <br>
 
-<div id="one-timeExpenses"><p>One-time expenses</p><br>
+
+  <div id="one-timeExpenses">
+    <h1>One-time expenses</h1>
+    <h2>Rent</h2>
+    <input type="text" id="securitydeposit" value="Security Deposit" /><br>
+    <input type="text" id="firtmonthrent" value=" First Month Rent"><br>
+    <input type="text" id="firstmonth utilities" value="First Month Utilities"><br>
+    <h3>Improvements Costs</h3>
+    <input type="text" id="kitchenimprovements" value="Kitchen Improvements" /><br>
+    <input type="text" id="tablesandfurniture" value="Tables and Furniture" /><br>
+    <input type="text" id="utensils,dishes,and,kitchenandbarequipment" value="Utensils, dishes, and kitchen and bar Equipment" /><br>
+    <h3>Inventory</h3>
+    <input type="text" id="food" value="Food" /><br>
+    <input type="text" id="beverage" value="Beverage" /><br>
+    <input type="text" id="alcohol" value="Alcohol" /><br>
+    <h4>Miscellaneous</h4>
+    <input type="text" id="licensesandpermits" value="Licenses and Permits" /><br>
+    <input type="text" id="legalfees" value="Legal Fees" /><br>
+    <input type="text" id="sinage" value="Signage" /><br>
+    <input type="text" id="technology" value="Technology" /><br>
+    <input type="text" id="sofware" value="Sofware" /><br>
   </div>
 
-<div id="Budget"><p>Budget</p><br>
+  <div id="Budget">
+    <br>
+      <p>Budget</p><br>
+    <br>
+    <br>
 
 
+    <input type="number" id="quantity" value="1200.00"><br>
+    <input type="number" id="quantity" value="1200.00"><br>
+    <input type="number" id="quantity" value="250.00"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <input type="number" id="quantity" value="800.00"><br>
+    <input type="number" id="quantity" value="1500.00"><br>
+    <input type="number" id="quantity" value="350.00"><br>
+    <br>
+    <br>
+    <br>
+    <input type="number" id="quantity" value="1200.00"><br>
+    <input type="number" id="quantity" value="700.00"><br>
+    <input type="number" id="quantity" value="900.00"><br>
+    <br>
+    <br>
+    <br>
+    <input type="number" id="quantity" value="150.00"><br>
+    <input type="number" id="quantity" value="300.00"><br>
+    <input type="number" id="quantity" value="550.00"><br>
+    <input type="number" id="quantity" value="300.00"><br>
+    <input type="number" id="quantity" value="400.00"><br>
+  </div>
+<!--<p>Total funds required</p>-->
+
+
+<div id="one-timeExpenses">
+  <h1>Montly Expenses</h1>
+  <h2>Rent</h2>
+  <input type="text" id="montlyrent" value="Montly Rent" /><br>
+  <input type="text" id="propertyinsurance" value=" Property Insurance"><br>
+
+  <input type="text" id="utilities" value="Utilities"><br>
+  <h3>Employees</h3>
+  <input type="text" id="payroll" value="Payroll" /><br>
+  <input type="text" id="payrooltaxes" value="Payroll Taxes" /><br>
+  <input type="text" id="healthinsurance" value="Health Insurance" /><br>
+  <h3>Professional Services</h3>
+  <input type="text" id="accounting" value="Accounting" /><br>
+  <input type="text" id="legal" value="Legal" /><br>
+  <input type="text" id="consultants" value="Consultants" /><br>
+  <input type="text" id="other" value="Other" /><br>
+  <h4>Supplies</h4>
+  <input type="text" id="officesupplies" value="Office Supplies" /><br>
+  <input type="text" id="operatingsupplies" value="Operating Supplies" /><br>
+  <h5>Marketing</h5>
+  <input type="text" id="digitaladvertising" value="Digital Advertising" /><br>
+  <input type="text" id="promotionalmaterials" value="Promotional Materials" /><br>
+  <h6>Miscellaneous<h6>
+  <input type="text" id="liabilityinsurance" value="Liability Insurance" /><br>
+  <input type="text" id="repairsandmaintenance" value="Repair and Maintenance" /><br>
+  <input type="text" id="organizationaldues" value="Organizational Dues" /><br>
 </div>
 
-<div>
-<button id="submit">Click to caltulate</button><br>
+
+
+<div id="Budget">
+  <br>
+    <p>Budget</p><br>
+  <br>
+  <br>
+  <input type="number" id="quantity" value="1200.00"><br>
+  <input type="" id="quantity" value="300.00"><br>
+  <input type="" id="quantity" value="250.00"><br>
+  <br>
+  <br>
+  <br>
+  <input type="" id="quantity" value="3000.00"><br>
+  <input type="" id="quantity" value="1250.00"><br>
+  <input type="" id="quantity" value="650.00"><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <input type="" id="quantity" value="200.00"><br>
+  <input type="" id="quantity" value="250.00"><br>
+  <input type="" id="quantity" value="200.00"><br>
+  <input type="" id="quantity" value="50.00"><br>
+  <br>
+  <br>
+  <br>
+  <input type="" id="quantity" value="150.00"><br>
+  <input type="" id="quantity" value="200.00"><br>
+  <br>
+  <br>
+  <br>
+  <input type="" id="quantity" value="350.00"><br>
+  <input type="" id="quantity" value="400.00"><br>
+  <br>
+  <br>
+  <br>
+  <input type="" id="quantity" value="400.00"><br>
+  <input type="" id="quantity" value="200.00"><br>
+  <input type="" id="quantity" value="75.00"><br>
+  </div>
+  <br>
+  <br>
+  <br>
+
+<div align="bottom">
+<button>Total funds required</button>
 </div>
 
-<div id="output"><p>Your results:</p>
-</div>
+  <div>
+    <button id="submit">Click to caltulate</button><br>
+  </div>
+
+  <div id="output">
+    <p>Your results:</p>
+  </div>
 
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 

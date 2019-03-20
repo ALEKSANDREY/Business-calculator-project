@@ -3,7 +3,7 @@ body {
 }
 
 div {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 #one-timeExpenses {
@@ -19,5 +19,5 @@ div {
 
 #submit {
   float: buttom;
-  
+
 }
