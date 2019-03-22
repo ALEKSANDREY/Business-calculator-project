@@ -15,9 +15,32 @@ div {
 
   float: left;
   border: 10px solid green;
+  margin-left: 20px;
+  margin-right: 50px;
+  border-color: gold;
 }
 
 #submit {
   float: buttom;
+  border: 10 px solid
+  position: fixed;
+    bottom: 0;
+    width: 50%
+}
 
+h1 {
+  border-style: dashed;
+  border-color: gold;
+}
+
+
+#total1{
+  border-color: : 10px;
+}
+
+#output{
+  border: 10 px solid
+  position: fixed;
+    bottom: 0;
+    width: 50%
 }
