@@ -1,46 +1,22 @@
 body {
-  background-color: lightblue;
+  background-color: #a5b1c2;
 }
-
 div {
   font-size: 25px;
 }
 
 #one-timeExpenses {
   float: left;
-  border: 10px solid red;
+  border: 10px solid#b2bec3;
 }
 
 #Budget {
 
   float: left;
-  border: 10px solid green;
-  margin-left: 20px;
-  margin-right: 50px;
-  border-color: gold;
+  border: 10px solid #b2bec3;
 }
 
 #submit {
   float: buttom;
-  border: 10 px solid
-  position: fixed;
-    bottom: 0;
-    width: 50%
-}
 
-h1 {
-  border-style: dashed;
-  border-color: gold;
-}
-
-
-#total1{
-  border-color: : 10px;
-}
-
-#output{
-  border: 10 px solid
-  position: fixed;
-    bottom: 0;
-    width: 50%
 }
